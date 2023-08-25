@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.white_back{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 37rem;
+    height: 23rem;
+    border-radius: 0.5rem; 
+    border: solid grey 0.1rem;
+}
+
+.blue_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.blue_back{
+    background-image: url('bg-sidebar-desktop.svg');
+    background-position: center;
+    background-color: blue;
+    background-size: cover;
+    width: 10rem;
+    height: 22rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.9rem;
+    margin-top: 1rem;
+    font-family: raleway;
+}
+
+.step1{
+    font-size: 0.6rem;
+    color: white;
+    margin-bottom: 0.7rem;
+}
+
+.one,
+.two,
+.three,
+.four{
+    color: white;
+    font-size: small;
+    text-align: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.7rem;
+    background-color: rgba(0, 0, 255, 0);
+    margin: 0rem 0rem 1rem 0rem;
+    border: solid 0.1rem white;
+}
+
+.four{
+    color: rgba(98, 0, 255, 0.514);
+    background-color: rgba(0, 247, 255, 0.664);
+}
+
+.sp{
+color: grey;
+font-weight: 600;
+}
+
+
+
+.number{
+    margin-right: 0.5rem;
+}
+
+.plan_background{
+    width: 25rem;
+    height: 15rem;
+    font-family: raleway;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* margin-left: rem; */
+}
+
+.plan{
+    height: 13rem;
+}
+
+.upper{
+    margin-left: 0.2rem;
+}
+
+.select_plan{
+    font-weight: 600;
+    color: darkblue;
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.option{
+    color: grey;
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 15rem;
+    margin-top: 0.4rem;
+    font-weight: 700;
+}
+
+.arcade{
+    font-size: 0.7rem;
+    color: darkblue;
+    font-weight: 700;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: rgba(211, 211, 211, 0.336);
+    width: 18rem;
+    height: 8rem;
+    font-size: 12px;
+    border-radius: 0.3rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: white;
+    font-weight: 700;
+    padding: 0.8rem;
+}
+
+.bluetick{
+    background-color: blue;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.2rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bluetick1{
+    background-color: white;
+    border: solid 0.1rem grey;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.2rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.bar1{
+    display: flex;
+    width: 17.8rem;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.4rem;
+
+}
+
+.monthly{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: grey;
+    width: 16.8rem;
+    font-size: 0.6rem;
+}
+
+.monthly1{
+    color: grey;
+    width: fit-content;
+    font-size: 0.6rem;
+}
+
+.next1{
+    margin-left: auto;
+    color: blue;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.online{
+    display: flex;
+    justify-content: center;
+    font-size: 0cm;
+}
+
+.inner{
+    margin-top: 0.09rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: white;
+    margin-left: 1.1rem;
+    border-radius: 2rem;
+}
+
+.button{
+    width: 2rem;
+    height: 1.0rem;
+    background-color: darkblue;
+    border-radius: 0.5rem;
+    margin: 0rem 0.5rem;
+}
+
+.arc{
+    color: grey;
+}
+
+.lower
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.go{
+    color: grey;
+    background-color: white;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step{
+    color: white;
+    background-color: lightskyblue;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    margin-left: auto;
+}
+
+.step:hover{
+    background-color: lightblue;
+}
+
+.go a{
+    text-decoration: none;
+    color: grey;
+}
+
+.step a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;    
+}
+
+.access{
+    color: grey;
+    font-size: 0.7rem;
+    margin-top: 0.35rem;
+    display: flex;
+    flex-direction: row;
+    width: 16.8rem;
+}
+
+.access1{
+    text-decoration: underline;
+}
+
+.access1:hover{
+    margin-top: 0.3rem;
+    flex-direction: column;
+    cursor: pointer;
+    color: darkblue;
+}
+
+.next{
+    color: blue;
+}
+
+.line{
+    width: 15rem;
+    height: 0.1rem;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-top: 0.7rem;
+}
+
+.line1{
+    width: 2.4rem;
+    height: 0.1rem;
+    background-color: grey;
+    margin-top: none;
+    color: blue;
+}
+
+.service{
+    margin-top: 1rem;
+}
+
+.money{
+    margin-left: auto;
+    font-size: 0.6rem;
+}
+
+.money1{
+    color: darkblue;
+    margin-left: auto;
+    font-size: 0.6rem;
+}
+
+.combo{
+    width: 6.3rem;
+}
+
+hr{
+    margin-top: 1.5rem;
+    width: 100%;
+}

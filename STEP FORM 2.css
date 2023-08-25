@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.right-container {
+  width: 25rem;
+}
+
+.step-container {
+  width: 11rem;
+  height: 22rem;
+  border-radius: 0.5rem;
+  padding: 1.2rem 0.8rem;
+  background-image: url("bg-sidebar-desktop.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.select-container {
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 3rem;
+}
+
+.button-container {
+  margin: 7rem auto 1rem;
+  display: flex;
+  justify-content: center;
+  width: 19rem;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box img{
+  width: 1.8rem;
+  margin-top: 0.4rem;
+}
+
+.box {
+  width: 6rem;
+  height: 7rem;
+  border: 0.15rem solid darkgrey;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.box:hover{
+  border: 0.15rem solid darkblue;
+}
+
+.blue{
+  background-color: rgb(243, 242, 242);
+  border: 0.15rem solid darkblue;
+}
+
+.box-lower {
+  margin-top: 1rem;
+}
+
+.box-lower p{
+  margin-left: 0.3rem;
+}
+
+strong{
+  color: darkblue;
+}
+
+#bar {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(243, 242, 242);
+  border-radius: 0.5rem;
+}
+
+#bar p,
+strong {
+  padding: 0.3rem;
+}
+
+#bar strong {
+  color: darkblue;
+}
+
+#bar p {
+  color: rgb(90, 90, 90);
+}
+
+.rect {
+  width: 2rem;
+  height: 1rem;
+  background-color: darkblue;
+  border-radius: 0.5rem;
+}
+
+.circle {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 1rem 2fr;
+  padding-left: 0.5rem;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.step .blue {
+  color: darkblue;
+  background-color: hsl(228, 100%, 84%);
+  border: 0;
+}
+
+.column {
+  margin-bottom: 0.9rem;
+  margin-left: 0.8rem;
+}
+
+.column strong{
+  color: white;
+}
+
+.number {
+  border: 0.1rem solid;
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grey {
+  color: hsl(231, 11%, 63%);
+}
+
+.select {
+  margin-bottom: 1.2rem;
+}
+
+.select h1 {
+  margin-top: 1rem;
+  color: darkblue;
+}
+
+.select p {
+  font-size: 0.75rem;
+  color: hsl(231, 11%, 63%);
+}
+
+.btn-blue {
+  background-color: darkblue;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  margin-left: auto;
+}
+
+.btn-blue a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-white {
+  background-color: white;
+  padding: 0.3rem;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.btn-white a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+
+@media (max-width: 400px) {
+
+  body{
+   flex-basis: 100%;
+  }
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(230, 242, 250);
+    padding: 0;
+    position: relative;
+  }
+
+  .button-container {
+    width: 80%;
+    margin: 24rem auto 1rem;
+    width: 19rem;
+    padding: 0.7rem;
+  }
+
+  .left-container {
+    padding: 0;
+    /* border-radius: 0rem; */
+  }
+
+  .right-container{
+    width: 100%;
+    height: 30rem;
+  }
+
+  .select-container{
+    width: 18rem;
+    height: 26rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    margin: 0.4rem auto;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+  }
+
+  .step-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 9rem;
+    background-image: url("bg-sidebar-mobile.svg");
+  }
+
+  .select{
+    width: 12rem;
+  }
+
+  .select p{
+    width: 16rem;
+    font-size: 1.2rem;
+  }
+
+  .column{
+    display: none;
+  }
+
+  .step{
+    margin: 0.15rem;
+  }
+
+  #bar{
+    margin: 1.8rem auto;
+    width: 100%;
+  }
+
+  .box-container{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+  }
+
+  .box{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin: 0.2rem;
+  }
+
+  .box img{
+    margin-right: 0.3rem;
+  }
+}

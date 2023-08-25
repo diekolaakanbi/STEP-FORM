@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+}
+
+html{
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.white_back {
+  display: flex;
+  background-color: white;
+  width: 37rem;
+  height: 23rem;
+  border-radius: 0.5rem;
+  border: solid grey 0.1rem;
+}
+
+.blue_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.blue_back {
+  background-image: url("bg-sidebar-desktop.svg");
+  background-position: center;
+  background-color: blue;
+  background-size: cover;
+  width: 10.5rem;
+  height: 22rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.9rem;
+  margin-top: 1rem;
+}
+
+.step1 {
+  font-size: 0.7rem;
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.one,
+.two,
+.three,
+.four {
+  color: white;
+  font-size: small;
+  text-align: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.7rem;
+  background-color: rgba(0, 0, 255, 0);
+  margin: 0rem 0rem 1rem 0rem;
+  border: solid 0.1rem white;
+}
+
+.three {
+  color: rgba(98, 0, 255, 0.514);
+  background-color: rgba(0, 247, 255, 0.664);
+}
+
+.sp {
+  color: grey;
+  font-weight: 600;
+}
+
+.number {
+  margin-right: 0.5rem;
+}
+
+.plan_background {
+  width: 26rem;
+  height: 15rem;
+  font-family: raleway;
+  flex-direction: column;
+  height: 22rem;
+}
+
+.plan {
+  height: 18rem;
+}
+
+.upper {
+  margin-left: 3rem;
+  margin-top: 1.3rem;
+}
+
+.middle {
+  margin-left: 3rem;
+}
+
+.select_plan {
+  font-weight: 600;
+  color: darkblue;
+}
+
+.option {
+  color: grey;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* .game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 15rem;
+  margin-top: 0.4rem;
+  font-weight: 700;
+} */
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.336);
+  width: 19rem;
+  height: 2.5rem;
+  font-size: 12px;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  color: white;
+  font-weight: 700;
+  border: solid blue 0.1rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.bluetick {
+  background-color: blue;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bluetick1 {
+  background-color: white;
+  border: solid 0.1rem grey;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.bar1 {
+  background-color: white;
+  border: solid grey 0.1rem;
+}
+
+.bar1:hover {
+  border-color: blue;
+  transition: 0.5s;
+}
+
+.online {
+  display: flex;
+  justify-content: center;
+}
+
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 12px;
+  margin-top: 4.5rem;
+}
+
+.go {
+  color: grey;
+  background-color: white;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step {
+  color: white;
+  background-color: darkblue;
+  width: 4.8rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-left: 11rem;
+}
+
+.go a {
+  text-decoration: none;
+  color: grey;
+}
+
+.step a {
+  text-decoration: none;
+  color: white;
+}
+
+.monthly {
+  color: darkblue;
+}
+
+.access {
+  color: grey;
+  font-size: 0.6rem;
+  margin-top: 0.05rem;
+}
+
+.next {
+  color: blue;
+  margin-left: auto;
+}
+
+@media (max-width: 400px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+}

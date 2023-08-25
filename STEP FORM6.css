@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.white_back {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 37rem;
+  height: 23rem;
+  border-radius: 0.5rem;
+  border: solid grey 0.1rem;
+}
+
+.blue_container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.blue_back {
+  background-image: url("bg-sidebar-desktop.svg");
+  background-position: center;
+  background-color: blue;
+  background-size: cover;
+  width: 10rem;
+  height: 22rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.9rem;
+  margin-top: 1rem;
+  font-family: raleway;
+}
+
+.step1 {
+  font-size: 0.6rem;
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.one,
+.two,
+.three,
+.four {
+  color: white;
+  font-size: small;
+  text-align: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.7rem;
+  background-color: rgba(0, 0, 255, 0);
+  margin: 0rem 0rem 0.9rem 0rem;
+  border: solid 0.1rem white;
+}
+
+.four {
+  color: rgba(98, 0, 255, 0.514);
+  background-color: rgba(0, 247, 255, 0.664);
+}
+
+.sp {
+  color: grey;
+  font-weight: 600;
+}
+
+.number {
+  margin-right: 0.5rem;
+}
+
+.plan_background {
+  width: 18.5rem;
+  height: 18rem;
+  font-family: raleway;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13rem;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+  align-items: center;
+  width: 21rem;
+}
+
+.select_plan {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: darkblue;
+}
+
+.select_plan{
+  margin: 0.5rem;
+}
+
+.option p {
+  margin: 0;
+  color: grey;
+  font-size: 10px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  line-height: 1rem;
+}
